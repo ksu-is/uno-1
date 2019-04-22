@@ -50,6 +50,8 @@ You will be assigned a player number at random, and will be asked to make your m
 
 ## Graphical game
 
+##updated player options
+
 A graphical version of the game can be played, developed using [pygame-zero](http://pygame-zero.readthedocs.io/).
 
 ![](pgz_screenshot.png)
