@@ -1210,9 +1210,9 @@ class Match():
                         self.matchAbort = True
                 elif playerInput == 's':
                     if len(self.deck) > 0:
-                        self.elements['Error'] = "Cannot pass until Deck is empty."
+                        self.elements['Error'] = "Can't pass until Deck is empty."
                     elif len(self.players[self.turn].getAllValidCards()) > 0:
-                        self.elements['Error'] = "Cannot pass while having playable cards."
+                        self.elements['Error'] = "You have playable cards."
                     else:
                         self.turnComplete = True
                         self.passes += 1
@@ -1229,7 +1229,7 @@ class Match():
                             self.elements['Error'] = ""
                             self.turnComplete = True
                         else:
-                            self.elements['Error'] = "Card Doesn't Match The Color {} or Value {}!".format(
+                            self.elements['Error'] = "Invalid Color {} or Value {}!".format(
                                 self.currentColor, self.currentValue)
                     else:
                         pass
