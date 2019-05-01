@@ -288,8 +288,8 @@ class Hand():
 
 
 class GameSettings():
-    playerIdentities = ('play1', 'play2', 'play3', 'play4')
-    computerNames = ('Watson', 'SkyNet', 'Hal', 'Metal Gear')
+    playerIdentities = ('player1', 'player2', 'player3', 'player4')
+    computerNames = ('LJ', 'Brandon', 'Ashia', 'Serah')
 
     def __init__(self):
         self.playerStaging = []  # Where Player Objs Are Stored Before Game Starts
